@@ -1,0 +1,17 @@
+# authorize polkit-gnome
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+
+exec brightnessctl set 50%
+
+# notifications
+exec mako
+
+# nwg-panel start
+exec variety
+
+exec autotiling
+
+# gtk app problem solver
+exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK
+exec hash dbus-update-activation-environment 2>/dev/null && \
+     dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
