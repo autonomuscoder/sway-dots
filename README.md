@@ -1,6 +1,2 @@
 # My Sway dotfiles
-![20231223_19h46m37s_grim](https://github.com/autonomuscoder/sway-dots/assets/112854891/bbd81460-c94d-47fa-b265-68d748f4bd31)
-
-
-
-Slightly modified from Drew: https://github.com/drewgrif
+![20231224_12h12m01s_grim](https://github.com/autonomuscoder/sway-dots/assets/112854891/ac4af055-f95b-490f-b264-d7d45e1ede6a)
